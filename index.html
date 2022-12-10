@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<!--MENU-->
+
+<header>
+    <div style = "margin-right: 190px; text-align: right; margin-top: 43px;">
+        <button class = "button_transparent" style = "font-weight: 500px; font-family: 'Inter'; font-size: 16px; color: #202336;">Home</button>
+        <button class = "text_400 button_transparent" style = "font-size: 16px; color: #B8BECD;">Destinations</button>
+        <button class = "text_400 button_transparent" style = "font-size: 16px; color: #B8BECD;">About</button>
+        <button class = "text_400 button_transparent" style = "font-size: 16px; color: #B8BECD;">Partner</button>
+
+        <button class = "button_white button_white_text" style = "margin-left : 34px; width: 132px; height: 44px">Login</button>
+        <button class = "button button_text" style = "margin-left : 18px; width: 132px; height: 44px">Register</button>
+
+    </div>
+</header>
+
+<body>
+    <!--Explore and Travel-->
+    <div class="content" style = "display: flex; flex-wrap: wrap;">
+
+       <div class="grid_margin_left">
+            <img style = "padding-left: 80px; padding-top: 374px;" src="element2.png">
+       </div>
+
+       <div class ="grid_column">
+            <p class="text_heading">Explore and <br>Travel</p>
+
+    
+            <p class="text_normal">Holiday finder</p>
+
+            <img style = "padding-bottom: 48px;" src="Rectangle 29.png"><br>
+
+            <select name="Location" id="id_location" class="dd_menu text_400" style="margin-right: 30px; margin-bottom: 35px;">
+    
+                <option value="" disabled selected hidden>Location</option>
+                <option value="Warsaw"> Warszawa </option> 
+                <option value="Madryt"> Madryt</option> 
+                <option value="Tokyo"> Tokio </option> 
+
+            </select>
+
+
+            <!-- POGODA -->
+            <div id="id_weather_info" class = "hidden">
+                <img id = "weather_img" src = "">
+                <div>
+                    <div>Current weather in <span id="weather_location"></span></div>
+                    <div>Temperature: <span id="weather_temperature"></span></div>
+                    
+
+                </div>
+
+            </div>
+
+
+
+            <br><button class="button button_text" type="button" id="id_weather">Weather</button>
+        </div>
+
+        <div class="grid_picture">
+            <img src="picture.png">
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&font-family=Mulish:ital,wght@0,200&family:ital, wght@0,400z&display=swap');
+
+body {
+    background-color: white;
+
+}
+
+header {
+    height: 130px;
+}
+
+.text_heading {
+    color: #202336;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 75px;
+
+}
+
+.text_normal {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+}
+
+.dd_menu {
+    box-sizing: border-box;
+    width: 220px;
+    height: 52px;
+    left: 191px;
+    top: 532px;
+
+
+    border-radius: 6px;
+    border: 0.8px solid #AFB0B9;
+}
+
+.text_400 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+
+}
+
+.button {
+
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 180px;
+    height: 52px;
+    border-style: none;
+}
+
+.button_white {
+
+    background: #E5E5E5;
+    ;
+    border-radius: 8px;
+    width: 180px;
+    height: 52px;
+    border: 1px solid #FB8F1D;
+    border-color: #FB8F1D;
+}
+
+.button_transparent {
+
+    background-color: transparent;
+    border-style: none;
+
+}
+
+.button_text {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    mix-blend-mode: normal;
+}
+
+.button_white_text {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+
+.grid_margin_left {
+    width: 190px;
+}
+
+.grid_column {
+    width: 475px;
+}
+
+.grid_picture {
+    width: 1px;
+    margin-left: 147px;
+}
+
+.grid_margin_right {
+    width: 105px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
